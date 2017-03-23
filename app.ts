@@ -3,6 +3,8 @@
 import * as express from "express";
 // import * as webpack from "webpack";
 
+const webpack = require("webpack");
+
 import { Router } from "./server/indexRoute";
 // import { RedisConnection } from "./server/db/redisDb";
 // import { MongoConnect } from "./server/db/mongoDb";
